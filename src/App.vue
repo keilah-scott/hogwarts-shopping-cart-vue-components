@@ -1,11 +1,17 @@
-<script setup lang="ts"></script>
-
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <ShoppingCart class="shopping-cart"></ShoppingCart>
 </template>
 
-<style scoped></style>
+<script setup>
+import ShoppingCart from '@/components/ShoppingCart.vue'
+</script>
+
+<style scoped>
+/* Styles for the shopping cart */
+.shopping-cart {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+</style>
